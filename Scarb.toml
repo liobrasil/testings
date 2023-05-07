@@ -1,0 +1,12 @@
+[package]
+name = "testings"
+version = "0.1.0"
+
+# See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest
+
+[dependencies]
+# foo = { path = "vendor/foo" }
+
+[scripts]
+test1 = "cairo-test --starknet --path src/ERC20.cairo"
+test2 = "cairo-test --starknet --path tests/test_01_integration.cairo"

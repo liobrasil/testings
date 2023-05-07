@@ -1,0 +1,3 @@
+[crates_roots]
+testings = "src"
+tests = "tests"
